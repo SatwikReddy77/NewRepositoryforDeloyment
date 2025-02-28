@@ -5,10 +5,10 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
-import os
 
 
-OPENAI_API_KEY = os.getenv("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")
+
+OPENAI_API_KEY = ""   #APi Key goes here
 
 #Upload PDF files
 st.header("Satwik's Chatbot")
